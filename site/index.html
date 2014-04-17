@@ -6,105 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PubBrain</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/custom.css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
 
-    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">PubBrain</a>
-      </div>
-    </div>
-    </nav>
+    <header>
+      <h1>PubBrain</h1>
+    </header>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-6 col-md-4 bg-primary">
-          <form role="form">
-            <div class="form-group">
-              <label class="col-sm-4 control-label" for="dx">Diagnosis</label>
-              <div class="col-sm-8">
-                <select class="form-control" id="dx">
-                  <option>Adjustment Disorder</option>
-                  <option>Acute Stress Disorder</option>
-                  <option>Panic Disorder</option>
-                  <option>Agoraphobia Without History of Panic Disorder</option>
-                  <option>Social Phobia</option>
-                  <option>Specific Phobia</option>
-                  <option>Obsessive-Compulsive Disorder</option>
-                  <option>Posttraumatic Stress Disorder</option>
-                  <option>Generalized Anxiety Disorder</option>
-                  <option>Attention-Deficit Hyperactivity Disorder</option>
-                  <option>Asperger's Disorder</option>
-                  <option>Autistic Disorder</option>
-                  <option>Conduct Disorder</option>
-                  <option>Oppositional Defiant Disorder</option>
-                  <option>Separation Anxiety Disorder</option>
-                  <option>Tourette's Disorder</option>
-                  <option>Eating Disorders</option>
-                  <option>Anorexia Nervosa</option>
-                  <option>Bulimia Nervosa</option>
-                  <option>Major Depressive Disorder</option>
-                  <option>Bipolar Disorder</option>
-                  <option>Cyclothymic Disorder</option>
-                  <option>Dysthymic Disorder</option>
-                  <option>Delirium</option>
-                  <option>Multi-Infarct Dementia</option>
-                  <option>Dementia Associated With Alcoholism</option>
-                  <option>Dementia of the Alzheimer Type</option>
-                  <option>Dementia</option>
-                  <option>Paranoid Personality Disorder</option>
-                  <option>Schizoid Personality Disorder</option>
-                  <option>Schizotypal Personality Disorder</option>
-                  <option>Antisocial Personality Disorder</option>
-                  <option>Borderline Personality Disorder</option>
-                  <option>Histrionic Personality Disorder</option>
-                  <option>Narcissistic Personality Disorder</option>
-                  <option>Avoidant Personality Disorder</option>
-                  <option>Dependent Personality Disorder</option>
-                  <option>Obsessive-Compulsive Personality Disorder</option>
-                  <option>Schizophrenia</option>
-                  <option>Delusional Disorder</option>
-                  <option>Brief Psychotic Disorder</option>
-                  <option>Schizophreniform Disorder</option>
-                  <option>Schizoaffective Disorder</option>
-                  <option>Shared Psychotic Disorder</option>
-                  <option>Alcohol Dependence</option>
-                  <option>Amphetamine Dependence</option>
-                  <option>Cannabis Dependence</option>
-                  <option>Cocaine Dependence</option>
-                  <option>Hallucinogen Dependence</option>
-                  <option>Inhalant Dependence</option>
-                  <option>Nicotine Dependence</option>
-                  <option>Opioid Dependence</option>
-                  <option>Phencyclidine Dependence</option>
-                  <option>Sedative Dependence</option>
-                </select>
-              </div>
-          </div>
-          </form>
+    <aside>
+      <form role="form">
+          <label for="dx">DSM Diagnosis</label>
+          <select id="dx">
+            <option>Adjustment Disorder</option>
+            <option>Acute Stress Disorder</option>
+            <option>Panic Disorder</option>
+            <option>Agoraphobia Without History of Panic Disorder</option>
+            <option>Social Phobia</option>
+            <option>Specific Phobia</option>
+            <option>Obsessive-Compulsive Disorder</option>
+            <option>Posttraumatic Stress Disorder</option>
+            <option>Generalized Anxiety Disorder</option>
+            <option>Attention-Deficit Hyperactivity Disorder</option>
+            <option>Asperger's Disorder</option>
+            <option>Autistic Disorder</option>
+            <option>Conduct Disorder</option>
+            <option>Oppositional Defiant Disorder</option>
+            <option>Separation Anxiety Disorder</option>
+            <option>Tourette's Disorder</option>
+            <option>Eating Disorders</option>
+            <option>Anorexia Nervosa</option>
+            <option>Bulimia Nervosa</option>
+            <option>Major Depressive Disorder</option>
+            <option>Bipolar Disorder</option>
+            <option>Cyclothymic Disorder</option>
+            <option>Dysthymic Disorder</option>
+            <option>Delirium</option>
+            <option>Multi-Infarct Dementia</option>
+            <option>Dementia Associated With Alcoholism</option>
+            <option>Dementia of the Alzheimer Type</option>
+            <option>Dementia</option>
+            <option>Paranoid Personality Disorder</option>
+            <option>Schizoid Personality Disorder</option>
+            <option>Schizotypal Personality Disorder</option>
+            <option>Antisocial Personality Disorder</option>
+            <option>Borderline Personality Disorder</option>
+            <option>Histrionic Personality Disorder</option>
+            <option>Narcissistic Personality Disorder</option>
+            <option>Avoidant Personality Disorder</option>
+            <option>Dependent Personality Disorder</option>
+            <option>Obsessive-Compulsive Personality Disorder</option>
+            <option>Schizophrenia</option>
+            <option>Delusional Disorder</option>
+            <option>Brief Psychotic Disorder</option>
+            <option>Schizophreniform Disorder</option>
+            <option>Schizoaffective Disorder</option>
+            <option>Shared Psychotic Disorder</option>
+            <option>Alcohol Dependence</option>
+            <option>Amphetamine Dependence</option>
+            <option>Cannabis Dependence</option>
+            <option>Cocaine Dependence</option>
+            <option>Hallucinogen Dependence</option>
+            <option>Inhalant Dependence</option>
+            <option>Nicotine Dependence</option>
+            <option>Opioid Dependence</option>
+            <option>Phencyclidine Dependence</option>
+            <option>Sedative Dependence</option>
+          </select>
+      </form>
+    </aside>
 
-        </div>
-        <div class="col-xs-12 col-md-8 bg-success">
-          <img class="img-responsive" src="../source_images/Lobes_of_the_brain_NL.svg">
-        </div>
-      </div>
-    </div>
+    <article>
+      <img src="Lobes.svg" width="1130" height="830">
+    </article>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   </body>
 </html>
