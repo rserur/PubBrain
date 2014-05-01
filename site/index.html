@@ -274,5 +274,16 @@
     </article>
 
   </body>
+<script type="text/javascript">
 
+    d3.select("svg").selectAll("g").on("mouseover", hover);
+
+    var hover = function(){
+        d3.select(this).transition().
+            delay(100).
+            duration(100).
+            style({'fill': 'red'})
+        };
+
+</script>
 </html>
