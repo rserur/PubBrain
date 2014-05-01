@@ -282,16 +282,12 @@
 
     areas.on("mouseover", function(){
         d3.select(this).transition().
-            delay(100).
-            duration(100).
-            style({'fill': 'red'}).
-            attr('fill', 'red')
+            duration(400).
+            style({'fill': 'red'})
         }).on("mouseout", function(){
         d3.select(this).transition().
-            delay(100).
-            duration(100).
-            style({'fill': 'yellow'}).
-            attr('fill', 'yellow')
+            duration(400).
+            style({'fill': 'yellow'})
         });
 
 
