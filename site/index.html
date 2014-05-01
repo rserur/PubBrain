@@ -280,13 +280,22 @@
 
     var areas = brain.selectAll("path");
 
-    areas.on("mouseover", hover);
+    areas.on("mouseover", hover).on("mouseout", unhover);
 
     var hover = function(){
         d3.select(this).transition().
             delay(100).
             duration(100).
-            classed("pizazz","true")
+            style({'fill': 'red'}).
+            attr('fill', 'red')
+        };
+
+    var unhover = function(){
+        d3.select(this).transition().
+            delay(100).
+            duration(100).
+            style({'fill': 'yellow'}).
+            attr('fill', 'yellow')
         };
 
 </script>
