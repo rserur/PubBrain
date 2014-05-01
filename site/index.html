@@ -280,14 +280,19 @@
 
     var areas = brain.selectAll("path");
 
+    areas.style({'fill': '#F9D953'});
+
     areas.on("mouseover", function(){
         d3.select(this).transition().
             duration(400).
-            style({'fill': 'red'})
+            style({'fill': '#FB5100'})
         }).on("mouseout", function(){
         d3.select(this).transition().
+            duration(200).
+            style({'fill': '#F99000'}).
+            transition().
             duration(400).
-            style({'fill': 'yellow'})
+            style({'fill': '#F9D953'})
         });
 
 
