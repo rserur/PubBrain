@@ -288,6 +288,8 @@
 
     var areas = brain.selectAll("path");
 
+    areas.classed({"unclicked" : true});
+
     areas.style({'fill': '#F9D953'});
 
     areas.on("mouseover", function(){
@@ -296,7 +298,9 @@
             style({'fill': '#FB5100'})
         }).
         on("mouseout", function(){
-            d3.select(this).transition().
+
+            if (d3.select(this).classed("unclicked")){
+                d3.select(this).transition().
                 duration(200).
                 style({'fill': '#F99000'}).
                 transition().
@@ -305,11 +309,26 @@
                 transition().
                 duration(400).
                 style({'fill': '#F9D953'})
-            });
+            };              
+        });
+            
 
     areas.on("click", function(){
-        d3.select(this.parentNode.parentNode).select("text").
-            style({'fill': '#F99000'});
+
+        if (d3.select(this).classed("unclicked")){
+            d3.select(this).classed({"unclicked" : false}).transition().
+                duration(400).
+                style({'fill': '#FB5100'}).
+            select(this.parentNode.parentNode).select("text").
+                style({'fill': '#F9D953'});
+        }
+        else {
+            d3.select(this).classed({"unclicked" : true}).transition().
+                duration(400).
+                style({'fill': '#F9D953'}).
+            select(this.parentNode.parentNode).select("text").
+                style({'fill': '#FB5100'});
+        }
     });    
 
 </script>
