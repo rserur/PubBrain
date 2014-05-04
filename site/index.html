@@ -301,17 +301,17 @@
 
             if (d3.select(this).classed("unclicked")){
                 d3.select(this).transition().
-                duration(200).
+                duration(300).
                 style({'fill': '#F99000'}).
                 transition().
-                duration(300).
-                style({'fill': '#F4A800'}).            
-                transition().
                 duration(400).
+                style({'fill': '#F4A800'}).
+                transition().
+                duration(500).
                 style({'fill': '#F9D953'})
-            };              
+            };
         });
-            
+
 
     areas.on("click", function(){
 
@@ -329,7 +329,7 @@
             select(this.parentNode.parentNode).select("text").
                 style({'fill': '#FB5100'});
         }
-    });    
+    });
 
 </script>
 </html>
