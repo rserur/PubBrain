@@ -7,7 +7,7 @@
     <title>PubBrain</title>
     <link rel="stylesheet" href="css/custom.css">
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   </head>
   <body>
 
@@ -312,7 +312,7 @@
     regions.on("mouseover", function(){
         d3.select(this).transition().
             duration(400).
-            style({'fill': '#F76F00'})
+            style({'fill': '#E05822'});
         }).
         on("mouseout", function(){
 
@@ -325,36 +325,52 @@
                 style({'fill': '#F9D953'}).
                 transition().
                 duration(500).
-                style({'fill': '#F9EE8A'})
+                style({'fill': '#F9EE8A'});
             };
         });
 
-    // When an area is clicked...
+    // When an region is clicked...
     regions.on("click", function(){
 
             // "unclick" all areas so that any current highlighting is removed.
             regions.classed({"unclicked" : true}).style({'fill':
                 '#F9EE8A'});
 
-        //  if area hasn't already been clicked...
+            borders.style({fill: '#F9D953'});
+
+            brain.selectAll("text").style({'fill': '#F76F00'});
+
+        //  if region hasn't already been clicked...
         if (d3.select(this).classed("unclicked")){
 
             // then remove "unclicked" class from the newly click area alone and keep that area filled with a highlighting orange.
             d3.select(this).classed({"unclicked" : false}).transition().
                 duration(400).
-                style({'fill': '#F76F00'}).
-            select(this.parentNode).select("text").
-                style({'fill': '#F9EE8A'});
+                style({'fill': '#F76F00'});
+
+                // change text in group
+                $(this).parent().siblings().
+                css('fill', '#000');
+
+                // change border of region
+                $(this).siblings().
+                css('fill', '#000');
         }
 
-        // if area has already been clicked...
+        // if region has already been clicked...
         else {
             // return it to "unclicked"
             d3.select(this).classed({"unclicked" : true}).transition().
                 duration(400).
-                style({'fill': '#F9EE8A'}).
-            select(this.parentNode).select("text").
-                style({'fill': '#FB5100'});
+                style({'fill': '#F9EE8A'});
+
+                // change text in group
+                $(this).parent().siblings().
+                css('fill', '#F76F00');
+
+                // change border of region
+                $(this).siblings().
+                css('fill', '#F9D953');
         }
     });
 

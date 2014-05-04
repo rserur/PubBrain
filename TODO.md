@@ -1,15 +1,21 @@
 TODO:
 ---------
+ 
+- Label lobes and brain stem
+- Fix Broca's & Wernicke's areas
+- Form fields
+- API Integration!
+- A little box for the facts and articles
+- Validate HTML & CSS
+- Clean up JS: Maybe move to separate JS file, remove unnecessary or redundant code, organize more with functions or classes?
+- Prettify layout.
+- Prettify color scheme and fonts.
 
-1. ~~Deselect currently clicked region if another region is clicked.~~
-2. Fix Broca's & Wernicke's areas
-3. ~~Add lobe regions somehow~~
-4. Form fields
-5. API Integration!
-6. A little box for the facts and articles
-7. ~~Make area borders unclickable somehow.~~
-8. ~~Add two-column layout.~~
-9. Prettify layout.
-10. Prettify color scheme and fonts.
-11. Validate HTML & CSS
-12. Figure out how to select nested sibling text in D3...
+Finished:
+------------
+
+~~Deselect currently clicked region if another region is clicked.~~
+~~Add lobe regions somehow~~
+~~Make area borders unclickable somehow.~~
+~~Add two-column layout.~~
+~~Figure out how to select nested sibling text in D3...~~
