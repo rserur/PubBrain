@@ -277,21 +277,26 @@
   </body>
 <script type="text/javascript">
 
+
+    // Create "brain" variable by selecting <svg> with D3.
     var brain = d3.select("svg");
 
+    // Fade in "brain" when page opens.
     brain.style("opacity", 0).
         transition().
         duration(2000).
         style("opacity", 1);
 
+    // Clear out text style so it's not visible.
     brain.selectAll("text").classed("tabasco", "false").style({'fill': '#F99000'});
 
+    // Create "areas" variable by selecting all paths within "brain"
     var areas = brain.selectAll("path");
 
-    areas.classed({"unclicked" : true});
+    // Start tracking which areas are clicked with a new "unclicked" class added to all areas.
+    areas.classed({"unclicked" : true}).style({'fill': '#F9D953'});
 
-    areas.style({'fill': '#F9D953'});
-
+    // On hover, highlight brain area under mouse with red. When user's mouse leaves an area, gradually fade it from red to orange, then finally back to the default brain color.
     areas.on("mouseover", function(){
         d3.select(this).transition().
             duration(400).
@@ -312,17 +317,27 @@
             };
         });
 
-
+    // When an area is clicked...
     areas.on("click", function(){
 
+            // "unclick" all areas so that any current highlighting is removed.
+            areas.classed({"unclicked" : true}).style({'fill': '#F9D953'});
+
+        //  if area hasn't already been clicked...
         if (d3.select(this).classed("unclicked")){
+
+            // then remove "unclicked" class from the newly click area alone and keep that area filled with a highlighting red.
             d3.select(this).classed({"unclicked" : false}).transition().
                 duration(400).
                 style({'fill': '#FB5100'}).
             select(this.parentNode.parentNode).select("text").
                 style({'fill': '#F9D953'});
         }
+
+        // if area has already been clicked...
         else {
+
+            // return it to "unclicked"
             d3.select(this).classed({"unclicked" : true}).transition().
                 duration(400).
                 style({'fill': '#F9D953'}).
