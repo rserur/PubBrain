@@ -14,8 +14,8 @@ TODO:
 Finished:
 ------------
 
-~~Deselect currently clicked region if another region is clicked.~~
-~~Add lobe regions somehow~~
-~~Make area borders unclickable somehow.~~
-~~Add two-column layout.~~
-~~Figure out how to select nested sibling text in D3...~~
+- ~~Deselect currently clicked region if another region is clicked.~~
+- ~~Add lobe regions somehow~~
+- ~~Make area borders unclickable somehow.~~
+- ~~Add two-column layout.~~
+- ~~Figure out how to select nested sibling text in D3...~~
