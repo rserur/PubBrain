@@ -7,3 +7,8 @@ TODO:
 4. Form fields
 5. API Integration!
 6. A little box for the facts and articles
+7. Make area borders unclickable somehow.
+~~8. Add two-column layout.~~
+9. Prettify layout.
+10. Prettify color scheme and fonts.
+11. Validate HTML & CSS

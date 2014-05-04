@@ -19,10 +19,26 @@
 
 header h1 {
   font-size: 5em;
+  margin: 0;
+}
+
+#SideContainer {
+  float: left;
+  width: 20%;
+  margin: 0%;
+  padding: 1%;
 }
 
 aside {
   font-size: 1.5em;
+  width: 20%;
+}
+
+#BrainContainer {
+  float: right;
+  width: 76%;
+  margin: 0%;
+  padding: 1%;
 }
 
 aside label {
