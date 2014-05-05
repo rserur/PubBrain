@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+    <section id="results">
+
+    </section>
+</body>
+
+
+<script>
+
+  $(document).ready(function(){
+
+    var search_string = "schizophrenia frontal lobe"
+
+    // Search PubMed (based on example @ http://entrezajax.appspot.com/examples/esearch+esummary.html)
+    args = {'apikey' : 'fd295326b5fd4f997b6a5778e50c3060',
+            'db' : 'pubmed',
+            'term' : search_string,
+            'retmax' : 10,
+            'max' : 5,
+            'start' : 0};
+
+    $.getJSON('http://entrezajax.appspot.com/esearch+esummary?callback=?', args, function(data){
+
+        $('#results').html(data.entrezajax.count + ' articles found.');
+
+        $.each(data.result, function(i, item){
+
+          var author_list = '';
+
+          for (var i = 0; i < item.AuthorList.length; i ++){
+
+            if (i != 0) { author_list += ', '; }
+
+            author_list += item.AuthorList[i];
+
+          }
+
+          var html = '<p class=\'article\'><h2><a href=\'http://www.ncbi.nlm.nih.gov/pubmed/' + item.ArticleIds.pubmed + '\'>' + item.Title + '</a></h2><div class=\'cite\'>' + author_list + ' - ' + item.FullJournalName + '</div>' + '<div class=\'date\'>(' + item.PubDate + ')</div></p>';
+
+          $("</p>").html(html).appendTo('#results');
+
+        });
+    });
+});
+
+</script>
+
+
+</html>

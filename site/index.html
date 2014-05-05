@@ -11,12 +11,12 @@
   </head>
   <body>
 
-    <div id="SideContainer">
+    <div id="side-container">
         <header>
           <h1>PubBrain</h1>
         </header>
 
-        <aside>
+        <section id="search">
           <form role="form">
               <label for="dx">DSM Diagnosis</label>
               <select id="dx">
@@ -76,10 +76,14 @@
                 <option>Sedative Dependence</option>
               </select>
           </form>
-        </aside>
+        </section>
+
+        <section id="results">
+
+        </section>
     </div>
 
-    <article id="BrainContainer">
+    <main id="brain-container">
 <svg width="1133" height="831" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <style type="text/css">
   <![CDATA[
@@ -272,12 +276,10 @@
   </g>
  </g>
 </svg>
-    </article>
+    </main>
 
   </body>
 <script type="text/javascript">
-
-
     // Create "brain" variable by selecting <svg> with D3.
     var brain = d3.select("svg");
 
