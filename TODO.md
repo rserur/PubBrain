@@ -8,7 +8,9 @@ TODO:
 - Integrate API data fully into page
     + ~~into a sidebar~~
     + entwined with form fields
-    + reactive to user
+    + ~~reactive to user~~
+        * ~~searches selected regions~~
+        * _extra: reflect # of articles found with colors in svg?_
 - A little box for the facts and articles
 - Validate HTML & CSS
 - Clean up JS: Maybe move to separate JS file, remove unnecessary or redundant code, organize more with functions or classes?

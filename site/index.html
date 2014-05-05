@@ -281,6 +281,7 @@
 
   </body>
 <script type="text/javascript">
+
     // Create "brain" variable by selecting <svg> with D3.
     var brain = d3.select("svg");
 
@@ -356,6 +357,10 @@
                 // change border of region
                 $(this).siblings().
                 css('fill', '#000');
+
+                keywords = $(this).parent().siblings().text();
+
+                search(keywords);
         }
 
         // if region has already been clicked...
@@ -375,9 +380,9 @@
         }
     });
 
-$(document).ready(function(){
+function search(keywords) {
 
-    var search_string = "schizophrenia frontal lobe"
+    var search_string = keywords;
 
     // Search PubMed (based on example @ http://entrezajax.appspot.com/examples/esearch+esummary.html)
     args = {'apikey' : 'fd295326b5fd4f997b6a5778e50c3060',
@@ -409,7 +414,7 @@ $(document).ready(function(){
 
         });
     });
-});
+};
 
 
 </script>
