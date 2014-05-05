@@ -6,7 +6,7 @@ TODO:
 - Fix Broca's & Wernicke's areas
 - Form fields
 - Integrate API data fully into page
-    + into a sidebar
+    + ~~into a sidebar~~
     + entwined with form fields
     + reactive to user
 - A little box for the facts and articles

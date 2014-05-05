@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PubBrain</title>
+    <link href='http://fonts.googleapis.com/css?family=Amatic+SC|Merriweather:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/custom.css">
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -16,7 +17,7 @@
           <h1>PubBrain</h1>
         </header>
 
-        <section id="search">
+        <!--<section id="search">
           <form role="form">
               <label for="dx">DSM Diagnosis</label>
               <select id="dx">
@@ -76,7 +77,7 @@
                 <option>Sedative Dependence</option>
               </select>
           </form>
-        </section>
+        </section>-->
 
         <section id="results">
 
@@ -84,10 +85,10 @@
     </div>
 
     <main id="brain-container">
-<svg width="1133" height="831" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="80 60 1000 831" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <style type="text/css">
   <![CDATA[
-    .amatic{font-family:'amaticbold', sans-serif;}
+    .amatic{font-family: 'Amatic SC', serif; font-weight: 700;}
     .hot-cinnamon{fill:#E05822;}
     .orange-stroke{fill:none;stroke:#F4A800;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
     .mule-fawn{fill:#8B5729;}
@@ -373,6 +374,43 @@
                 css('fill', '#F9D953');
         }
     });
+
+$(document).ready(function(){
+
+    var search_string = "schizophrenia frontal lobe"
+
+    // Search PubMed (based on example @ http://entrezajax.appspot.com/examples/esearch+esummary.html)
+    args = {'apikey' : 'fd295326b5fd4f997b6a5778e50c3060',
+            'db' : 'pubmed',
+            'term' : search_string,
+            'retmax' : 20,
+            'max' : 10,
+            'start' : 0};
+
+    $.getJSON('http://entrezajax.appspot.com/esearch+esummary?callback=?', args, function(data){
+
+        $('#results').html('<strong>' + data.entrezajax.count + '</strong> articles found.');
+
+        $.each(data.result, function(i, item){
+
+          var author_list = '';
+
+          for (var i = 0; i < item.AuthorList.length; i ++){
+
+            if (i != 0) { author_list += ', '; }
+
+            author_list += item.AuthorList[i];
+
+          }
+
+          var html = '<p class=\'article\'><h2><a href=\'http://www.ncbi.nlm.nih.gov/pubmed/' + item.ArticleIds.pubmed + '\'>' + item.Title + '</a></h2><div class=\'cite\'>' + author_list + ' - ' + item.FullJournalName + '</div>' + '<div class=\'date\'>(' + item.PubDate + ')</div></p>';
+
+          $("</p>").html(html).appendTo('#results');
+
+        });
+    });
+});
+
 
 </script>
 </html>
