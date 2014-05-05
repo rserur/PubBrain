@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PubBrain</title>
-    <link href='http://fonts.googleapis.com/css?family=Amatic+SC|Merriweather:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Amatic+SC|Merriweather+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/custom.css">
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -282,6 +282,9 @@
   </body>
 <script type="text/javascript">
 
+    // Contain search keywords
+    var keywords = '';
+
     // Create "brain" variable by selecting <svg> with D3.
     var brain = d3.select("svg");
 
@@ -408,7 +411,7 @@ function search(keywords) {
 
           }
 
-          var html = '<p class=\'article\'><h2><a href=\'http://www.ncbi.nlm.nih.gov/pubmed/' + item.ArticleIds.pubmed + '\'>' + item.Title + '</a></h2><div class=\'cite\'>' + author_list + ' - ' + item.FullJournalName + '</div>' + '<div class=\'date\'>(' + item.PubDate + ')</div></p>';
+          var html = '<p class=\'article\'><h2><a href=\'http://www.ncbi.nlm.nih.gov/pubmed/' + item.ArticleIds.pubmed + '\'>' + item.Title + '</a></h2><div class=\'cite\'>' + author_list + ' - ' + item.FullJournalName + '<span class=\'date\'> (' + item.PubDate + ')</span></div></p>';
 
           $("</p>").html(html).appendTo('#results');
 

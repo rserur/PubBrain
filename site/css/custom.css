@@ -4,12 +4,14 @@ html, body {
 }
 
 header h1 {
-  font-size: 4em;
+  font-family: 'Amatic SC', serif;
+  font-size: 6em;
+  font-weight: 700;
   margin: 0;
 }
 
 #side-container {
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather Sans', serif;
   float: left;
   width: 30%;
   margin: 1%;
@@ -39,12 +41,23 @@ section label {
 
 #results h2 {
   font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
 #results a {
   font-size: inherit;
   text-decoration: none;
   color: #9B3516;
+}
+
+#results .cite {
+  margin-top: .25em;
+  margin-bottom: 1.4em;
+}
+
+#results .date {
+  color: #8B5729;
 }
 
 #dx {
