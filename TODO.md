@@ -4,10 +4,10 @@ TODO:
 - Remove unnecessary styles
 - Label lobes and brain stem
 - Fix Broca's & Wernicke's areas
-- Form fields
-- Integrate API data fully into page
+- Form fields (all)
+- ~~Integrate API data fully into page~~
     + ~~into a sidebar~~
-    + entwined with form fields
+    + ~~entwined with form fields~~
     + ~~reactive to user~~
         * ~~searches selected regions~~
         * _extra: reflect # of articles found with colors in svg?_
