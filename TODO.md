@@ -4,6 +4,8 @@ TODO:
 - Remove unnecessary styles
 - Label lobes and brain stem
 - Fix Broca's & Wernicke's areas
+- Fix shifted brain labels
+- Allow brain labels to be clickable as well
 - Form fields (all)
 - ~~Integrate API data fully into page~~
     + ~~into a sidebar~~
@@ -17,6 +19,7 @@ TODO:
 - Clean up JS: Maybe move to separate JS file, remove unnecessary or redundant code, organize more with functions or classes?
 - Prettify layout.
 - Prettify color scheme and fonts.
+- _extra: pagination?_
 
 Finished:
 ------------
@@ -27,3 +30,4 @@ Finished:
 - ~~Add two-column layout.~~
 - ~~Figure out how to select nested sibling text in D3...~~
 - ~~API Integration: Use API key fd295326b5fd4f997b6a5778e50c3060 for Entrez-AJAX (http://entrezajax.appspot.com/)~~
+

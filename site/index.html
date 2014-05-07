@@ -20,66 +20,86 @@
                   <label for="dx">DSM:</label>
                   <select id="dx">
                     <option></option>
-                    <option>Adjustment Disorder</option>
                     <option>Acute Stress Disorder</option>
-                    <option>Panic Disorder</option>
+                    <option>Adjustment Disorder</option>
                     <option>Agoraphobia Without History of Panic Disorder</option>
-                    <option>Social Phobia</option>
-                    <option>Specific Phobia</option>
-                    <option>Obsessive-Compulsive Disorder</option>
-                    <option>Posttraumatic Stress Disorder</option>
-                    <option>Generalized Anxiety Disorder</option>
-                    <option>Attention-Deficit Hyperactivity Disorder</option>
-                    <option>Asperger's Disorder</option>
-                    <option>Autistic Disorder</option>
-                    <option>Conduct Disorder</option>
-                    <option>Oppositional Defiant Disorder</option>
-                    <option>Separation Anxiety Disorder</option>
-                    <option>Tourette's Disorder</option>
-                    <option>Eating Disorders</option>
+                    <option>Alcohol Dependence</option>
+                    <option>Amphetamine Dependence</option>
                     <option>Anorexia Nervosa</option>
-                    <option>Bulimia Nervosa</option>
-                    <option>Major Depressive Disorder</option>
+                    <option>Antisocial Personality Disorder</option>
+                    <option>Asperger's Disorder</option>
+                    <option>Attention-Deficit Hyperactivity Disorder</option>
+                    <option>Autistic Disorder</option>
+                    <option>Avoidant Personality Disorder</option>
                     <option>Bipolar Disorder</option>
+                    <option>Borderline Personality Disorder</option>
+                    <option>Brief Psychotic Disorder</option>
+                    <option>Bulimia Nervosa</option>
+                    <option>Cannabis Dependence</option>
+                    <option>Cocaine Dependence</option>
+                    <option>Conduct Disorder</option>
                     <option>Cyclothymic Disorder</option>
-                    <option>Dysthymic Disorder</option>
                     <option>Delirium</option>
-                    <option>Multi-Inferiorarct Dementia</option>
+                    <option>Delusional Disorder</option>
                     <option>Dementia Associated With Alcoholism</option>
                     <option>Dementia of the Alzheimer Type</option>
                     <option>Dementia</option>
-                    <option>Paranoid Personality Disorder</option>
-                    <option>Schizoid Personality Disorder</option>
-                    <option>Schizotypal Personality Disorder</option>
-                    <option>Antisocial Personality Disorder</option>
-                    <option>Borderline Personality Disorder</option>
-                    <option>Histrionic Personality Disorder</option>
-                    <option>Narcissistic Personality Disorder</option>
-                    <option>Avoidant Personality Disorder</option>
                     <option>Dependent Personality Disorder</option>
-                    <option>Obsessive-Compulsive Personality Disorder</option>
-                    <option>Schizophrenia</option>
-                    <option>Delusional Disorder</option>
-                    <option>Brief Psychotic Disorder</option>
-                    <option>Schizophreniform Disorder</option>
-                    <option>Schizoaffective Disorder</option>
-                    <option>Shared Psychotic Disorder</option>
-                    <option>Alcohol Dependence</option>
-                    <option>Amphetamine Dependence</option>
-                    <option>Cannabis Dependence</option>
-                    <option>Cocaine Dependence</option>
+                    <option>Dysthymic Disorder</option>
+                    <option>Eating Disorders</option>
+                    <option>Generalized Anxiety Disorder</option>
                     <option>Hallucinogen Dependence</option>
+                    <option>Histrionic Personality Disorder</option>
                     <option>Inhalant Dependence</option>
+                    <option>Major Depressive Disorder</option>
+                    <option>Multi-Inferiorarct Dementia</option>
+                    <option>Narcissistic Personality Disorder</option>
                     <option>Nicotine Dependence</option>
+                    <option>Obsessive-Compulsive Disorder</option>
+                    <option>Obsessive-Compulsive Personality Disorder</option>
                     <option>Opioid Dependence</option>
+                    <option>Oppositional Defiant Disorder</option>
+                    <option>Panic Disorder</option>
+                    <option>Paranoid Personality Disorder</option>
                     <option>Phencyclidine Dependence</option>
+                    <option>Posttraumatic Stress Disorder</option>
+                    <option>Schizoaffective Disorder</option>
+                    <option>Schizoid Personality Disorder</option>
+                    <option>Schizophrenia</option>
+                    <option>Schizophreniform Disorder</option>
+                    <option>Schizotypal Personality Disorder</option>
                     <option>Sedative Dependence</option>
+                    <option>Separation Anxiety Disorder</option>
+                    <option>Shared Psychotic Disorder</option>
+                    <option>Social Phobia</option>
+                    <option>Specific Phobia</option>
+                    <option>Tourette's Disorder</option>
                   </select>
+                  <br />
+                <label for="cognition">Area of Cognition:</label>
+                <select id="cognition">
+                    <option></option>
+                    <option>Attention</option>
+                    <option>Coordination</option>
+                    <option>Executive Functioning</option>
+                    <option>Judgement</option>
+                    <option>Language</option>
+                    <option>Memory</option>
+                    <option>Motor</option>
+                    <option>Reward</option>
+                    <option>Pain</option>
+                    <option>Perception</option>
+                    <option>Sensation</option>
+                    <option>Visual Processing</option>
+                    <option>Spatial Processing</option>
+                </select>
             </form>
         </section>
         <section id="results">
 
         </section>
+
+        <section id="all">View All Results</section>
     </div>
 
     <main id="brain-container">
@@ -87,8 +107,9 @@
  <style type="text/css">
   <![CDATA[
     .amatic{font-family: 'Amatic SC', serif; font-weight: 700;}
-    .hot-cinnamon{fill:#E05822;}
+
     .orange-stroke{fill:none;stroke:#F4A800;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+    .hot-cinnamon{fill:#E05822;}
     .mule-fawn{fill:#8B5729;}
     .burnt-umber{fill:#8D4428;}
     .web-orange{fill:#F4A800;}
@@ -282,29 +303,17 @@
 
     $( document ).ready(function() {
 
-         // search keywords
+         //  Keyword Variables
+
+        // Keyword variables
         var region = '';
         var dx = '';
-
-        $("#dx").change(function() {
-            dx = $(this).val();
-
-            search(region + " " + dx);
-        });
+        var cog = '';
 
         // Create "brain" variable by selecting <svg> with D3.
         var brain = d3.select("svg");
 
-        // Fade in "brain" when page opens.
-        brain.style("opacity", 0).
-            transition().
-            duration(2000).
-            style("opacity", 1);
-
-        // Clear out text style so it's not visible.
-        brain.selectAll("text").classed("tabasco", "false").style({'fill': '#F76F00'});
-
-        // variables based on lobule, lobe, area, and border classes.
+        // Variables based on lobule, lobe, area, and border classes.
         var lobes = brain.selectAll(".lobe");
         var lobules = brain.selectAll(".lobule");
         var areas = brain.selectAll(".area");
@@ -313,20 +322,41 @@
         // "regions" variable to refer to lobes, lobules, and areas at once
         var regions = brain.selectAll(".lobe, .lobule, .area");
 
+        // Fade in "brain" when page opens.
+        brain.style("opacity", 0).transition().duration(2000).style("opacity", 1);
+
+        // Detect when diagnosis selection changes.
+        $("#dx").change(function() {
+            dx = $(this).val();
+
+            // Search with all selected values.
+            search(region + " " + dx + " " + cog);
+        });
+
+        // Detect when diagnosis selection changes.
+        $("#cognition").change(function() {
+            cog = $(this).val();
+
+            // Search with all selected values.
+            search(region + " " + dx + " " + cog);
+        });
+
+        // Set text and border colors
+        brain.selectAll("text").style({'fill': '#F76F00'});
+        borders.style({fill: '#F9D953'});
+
         // Start tracking which lobules and lobes are clicked with a new "unclicked" class added to all.
         lobules.classed({"unclicked" : true}).style({'fill': '#F9EE8A'});
 
         lobes.classed({"unclicked" : true}).style({'fill': '#F9EE8A'});
 
-        borders.style({fill: '#F9D953'});
-
         // On hover, highlight brain lobule under mouse with orange. When user's mouse leaves a lobule, gradually fade it from yellow to orange, then finally back to the default brain color.
         regions.on("mouseover", function(){
+
             d3.select(this).transition().
                 duration(400).
                 style({'fill': '#E05822'});
-            }).
-            on("mouseout", function(){
+            }).on("mouseout", function(){
 
                 if (d3.select(this).classed("unclicked")){
                     d3.select(this).transition().
@@ -339,20 +369,21 @@
                     duration(500).
                     style({'fill': '#F9EE8A'});
                 };
+
             });
 
-        // When an region is clicked...
+        // When a region is clicked...
         regions.on("click", function(){
 
-                // "unclick" all areas so that any current highlighting is removed.
+                // "unclick" all regions so that any current highlighting is removed.
                 regions.classed({"unclicked" : true}).style({'fill':
                     '#F9EE8A'});
 
+                // style it
                 borders.style({fill: '#F9D953'});
-
                 brain.selectAll("text").style({'fill': '#F76F00'});
 
-            //  if region hasn't already been clicked...
+            //  if region hasn't yet been clicked...
             if (d3.select(this).classed("unclicked")){
 
                 // then remove "unclicked" class from the newly click area alone and keep that area filled with a highlighting orange.
@@ -370,11 +401,12 @@
 
                     region = $(this).parent().siblings().text();
 
-                    search(region + " " + dx);
+                    search(region + " " + dx + " " + cog);
             }
 
-            // if region has already been clicked...
+            // if region has been clicked...
             else {
+
                 // return it to "unclicked"
                 d3.select(this).classed({"unclicked" : true}).transition().
                     duration(400).
@@ -390,6 +422,7 @@
             }
         });
 
+        // Finally, search.
         function search(keywords) {
 
             var search_string = keywords;
@@ -405,12 +438,10 @@
             $.getJSON('http://entrezajax.appspot.com/esearch+esummary?callback=?', args, function(data){
 
                 if (data.entrezajax.count != null){
-                    $('#results').html('<strong>' + data.entrezajax.count + '</strong> articles found about ' + keywords);
+                    $('#results').html('<strong>' + data.entrezajax.count + '</strong> articles found about ' + keywords + ":");
                 } else {
                     $('#results').html('Sorry, no articles found about ' + keywords + ".");
                 }
-
-
 
                 $.each(data.result, function(i, item){
 
@@ -424,7 +455,7 @@
 
                   }
 
-                  var html = '<p class=\'article\'><h2><a href=\'http://www.ncbi.nlm.nih.gov/pubmed/' + item.ArticleIds.pubmed + '\'>' + item.Title + '</a></h2><div class=\'cite\'>' + author_list + ' - ' + item.FullJournalName + '<span class=\'date\'> (' + item.PubDate + ')</span></div></p>';
+                  var html = '<p class=\'article\'><h2><a href=\'http://www.ncbi.nlm.nih.gov/pubmed/' + item.ArticleIds.pubmed + '\' target = \'_blank\'>' + item.Title + '</a></h2><div class=\'cite\'>' + author_list + ' - ' + item.FullJournalName + '<span class=\'date\'> (' + item.PubDate + ')</span></div></p>';
 
                   $("</p>").html(html).appendTo('#results');
 
