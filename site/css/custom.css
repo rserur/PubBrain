@@ -1,20 +1,26 @@
 html, body {
   background-color: #FFF0DC;
+  height: 100%;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
+
 header h1 {
-  font-family: 'Amatic SC', serif;
-  font-size: 6em;
-  font-weight: 700;
+  font-size: 4em;
+  font-weight:700;
   margin: 0;
+  padding: 0 1%;
+  color: #000;
 }
 
 #side-container {
-  font-family: 'Merriweather Sans', serif;
+  font-family: 'Merriweather', serif;
   float: left;
+  height: 100%;
   width: 30%;
-  margin: 1%;
+  margin: 0;
   padding: 1%;
   font-size: .8em;
   background-color: #ffffff;
@@ -29,14 +35,10 @@ header h1 {
   padding: 0;
 }
 
-section label {
-  font-family: 'Amatic SC', serif;
-  font-size: 1em;
-}
-
 #results {
-  height: 650px;
+  height: 85%;
   overflow: scroll;
+  margin-top: 2%;
 }
 
 #results h2 {
