@@ -31,3 +31,14 @@ Finished:
 - ~~Figure out how to select nested sibling text in D3...~~
 - ~~API Integration: Use API key fd295326b5fd4f997b6a5778e50c3060 for Entrez-AJAX (http://entrezajax.appspot.com/)~~
 
+Notes
+______
+
+
+    $("#reset").on("click", function(){
+
+        $("svg > *").addClass("unclicked");
+
+    });
+
+Something like the above code will not work unless the unclicked class contains the right styles... maybe I'll create an unclicked class?
