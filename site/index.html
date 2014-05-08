@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/custom.css">
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/processing.min.js"></script>
   </head>
   <body>
 
@@ -100,11 +101,10 @@
         <section id="results">
 
         </section>
-
-        <section id="all">View All Results</section>
     </div>
 
     <main id="brain-container">
+<canvas></canvas>
 <svg viewBox="80 60 1000 831" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <style type="text/css">
   <![CDATA[
@@ -305,12 +305,17 @@
 
     $( document ).ready(function() {
 
-         //  Keyword Variables
-
         // Keyword variables
         var region = '';
         var dx = '';
         var cog = '';
+
+        // Create "canvas" variable to draw with Processing.
+        var canvas = document.getElementsByTagName('canvas')[0];
+
+        /**
+         *BEGIN D3-dependent CODE
+         */
 
         // Create "brain" variable by selecting <svg> with D3.
         var brain = d3.select("svg");
@@ -423,6 +428,28 @@
                     css('fill', '#F9D953');
             }
         });
+
+        /**
+         *END D3 CODE, BEGIN PROCESSING CODE
+         */
+
+        var p = new Processing(canvas, sketch);
+
+
+        function sketch(p) {
+
+            function setup() {
+                p.size(1000, 831);
+            }
+
+            function draw() {
+
+            }
+
+            p.setup = setup;
+            p.draw = draw;
+
+        }
 
         // Finally, search.
         function search(keywords) {

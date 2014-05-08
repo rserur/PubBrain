@@ -45,5 +45,16 @@ Something like the above code will not work unless the unclicked class contains 
 
 Should add this if I attempt pagination:
 
-
     <section id="all">View All Results</section>
+
+	    #all {
+	  height: 5%;
+	  text-align: right;
+	  font-size: 1.2em;
+	}
+
+		#results {
+	  height: 80%;
+	  overflow: scroll;
+	  margin-top: 2%;
+	}
