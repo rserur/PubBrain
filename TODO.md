@@ -42,3 +42,8 @@ ______
     });
 
 Something like the above code will not work unless the unclicked class contains the right styles... maybe I'll create an unclicked class?
+
+Should add this if I attempt pagination:
+
+
+    <section id="all">View All Results</section>
