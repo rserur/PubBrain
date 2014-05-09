@@ -100,12 +100,10 @@
         <section id="results">
 
         </section>
-
-        <section id="all">View All Results</section>
     </div>
 
     <main id="brain-container">
-<svg viewBox="80 60 1000 831" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg id="brain-img" viewBox="80 60 1000 831" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <style type="text/css">
   <![CDATA[
     .amatic{font-family: 'Amatic SC', serif; font-weight: 700;}
@@ -423,6 +421,17 @@
                     css('fill', '#F9D953');
             }
         });
+
+        var drawings = d3.select("main").append("svg")
+            .attr("viewBox", "80 60 1000 831")
+            .attr("id", "drawings")
+            ;
+
+        drawings.append("circle")
+                    .attr("cx", 130)
+                    .attr("cy", 130)
+                    .attr("r", 130)
+                    .attr("fill", "purple");
 
         // Finally, search.
         function search(keywords) {

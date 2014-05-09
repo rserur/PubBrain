@@ -26,6 +26,14 @@ header h1 {
   background-color: #ffffff;
 }
 
+#brain-img {
+  z-index: -1;
+}
+
+#drawings {
+  z-index: 1;
+}
+
 #brain-container {
   font-family: 'Amatic SC', serif;
   float: right;
@@ -36,8 +44,8 @@ header h1 {
 }
 
 #results {
-  height: 80%;
-  overflow: scroll;
+  height: 82%;
+  overflow: auto;
   margin-top: 2%;
 }
 
@@ -60,12 +68,6 @@ header h1 {
 
 #results .date {
   color: #8B5729;
-}
-
-#all {
-  height: 5%;
-  text-align: right;
-  font-size: 1.2em;
 }
 
 #dx {
