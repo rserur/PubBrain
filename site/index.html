@@ -95,8 +95,8 @@
                 </select>
                 <br />
                 <label for="terms">Search Terms:</label>
-                <input type="text" id="type">
-                <button id="reset" type="reset" value="Reset">Reset All</button>
+                <input type="text" id="terms">
+                <button id="reset" type="reset" value="Reset">Clear Form</button>
             </form>
         </section>
         <section id="results">
@@ -311,6 +311,7 @@
         var region = '';
         var dx = '';
         var cog = '';
+        var terms = '';
 
         // Create "brain" variable by selecting <svg> with D3.
         var brain = d3.select("svg");
@@ -332,15 +333,23 @@
             dx = $(this).val();
 
             // Search with all selected values.
-            search(region + " " + dx + " " + cog);
+            search(region + " " + dx + " " + cog + " " + terms);
         });
 
-        // Detect when diagnosis selection changes.
+        // Detect when cognition selection changes.
         $("#cognition").change(function() {
             cog = $(this).val();
 
             // Search with all selected values.
-            search(region + " " + dx + " " + cog);
+            search(region + " " + dx + " " + cog + " " + terms);
+        });
+
+        // Detect when search terms changes.
+        $("#terms").keyup(function() {
+            terms = $(this).val();
+
+            // Search with all selected values.
+            search(region + " " + dx + " " + cog + " " + terms);
         });
 
         // Set text and border colors
@@ -403,7 +412,7 @@
 
                     region = $(this).parent().siblings().text();
 
-                    search(region + " " + dx + " " + cog);
+                    search(region + " " + dx + " " + cog + " " + terms);
             }
 
             // if region has been clicked...
