@@ -325,6 +325,7 @@
         // "regions" variable to refer to lobes, lobules, and areas at once
         var regions = brain.selectAll(".lobe, .lobule, .area");
 
+
         // Fade in "brain" when page opens.
         brain.style("opacity", 0).transition().duration(2000).style("opacity", 1);
 
@@ -382,6 +383,12 @@
                 };
 
             });
+
+        var regionNames= $("text").map(function(){
+            return this.val();
+        }).get().join();
+
+        console.log(regionNames);
 
         // When a region is clicked...
         regions.on("click", function(){
@@ -466,7 +473,48 @@
                 }
 
                 $.each(data.result, function(i, item){
+                    console.log(data);
+                  var author_list = '';
 
+                  for (var i = 0; i < item.AuthorList.length; i ++){
+
+                    if (i != 0) { author_list += ', '; }
+
+                    author_list += item.AuthorList[i];
+
+                  }
+
+                  var html = '<p class=\'article\'><h2><a href=\'http://www.ncbi.nlm.nih.gov/pubmed/' + item.ArticleIds.pubmed + '\' target = \'_blank\'>' + item.Title + '</a></h2><div class=\'cite\'>' + author_list + ' - ' + item.FullJournalName + '<span class=\'date\'> (' + item.PubDate + ')</span></div></p>';
+
+                  $("</p>").html(html).appendTo('#results');
+
+                });
+            });
+        };
+
+                // Finally, search.
+        function search(keywords) {
+
+            var search_string = keywords;
+
+            // Search PubMed (based on example @ http://entrezajax.appspot.com/examples/esearch+esummary.html)
+            args = {'apikey' : 'fd295326b5fd4f997b6a5778e50c3060',
+                    'db' : 'pubmed',
+                    'term' : search_string,
+                    'retmax' : 20,
+                    'max' : 10,
+                    'start' : 0};
+
+            $.getJSON('http://entrezajax.appspot.com/esearch+esummary?callback=?', args, function(data){
+
+                if (data.entrezajax.count != null){
+                    $('#results').html('<strong>' + data.entrezajax.count + '</strong> articles found about ' + keywords + ":");
+                } else {
+                    $('#results').html('Sorry, no articles found about ' + keywords + ".");
+                }
+
+                $.each(data.result, function(i, item){
+                    console.log(data);
                   var author_list = '';
 
                   for (var i = 0; i < item.AuthorList.length; i ++){
