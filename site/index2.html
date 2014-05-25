@@ -105,9 +105,6 @@
     </div>
 
     <main id="brain-container">
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      width="1061.947px" height="772.501px" viewBox="0 0 1061.947 772.501" enable-background="new 0 0 1061.947 772.501"
      xml:space="preserve">
@@ -289,7 +286,7 @@
             c47.513,7.451,225.454,16.924,242.103,76.217c11.395,40.583-47.922,112.21-95.298,69.49
             c-44.114-39.777-21.198-82.784-93.597-87.895c-52.138-3.681-99.404-9.926-149.326,28.437
             C317.268,398,495.251,408.749,427.108,481.393"/>
-        <text id="CorpusCallosumT" transform="matrix(1 0 0 1 399.5962 310.5015)" font-family="'AmaticSC-Regular'" font-size="36">Corpus CAllosum</text>
+        <text id="CorpusCallosumT" transform="matrix(1 0 0 1 399.5962 310.5015)" font-family="'AmaticSC-Regular'" font-size="36">Corpus Callosum</text>
     </g>
     <g id="Thalamus_1_">
         <path id="Thalamus" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M415.852,505.391
@@ -384,8 +381,7 @@
         var borders = brain.selectAll(".border");
 
         // "regions" variable to refer to lobes, lobules, and areas at once
-        var regions = brain.selectAll("#Lobes path");
-
+        var regions = brain.selectAll("path");
 
         // Fade in "brain" when page opens.
         brain.style("opacity", 0).transition().duration(2000).style("opacity", 1);
@@ -445,10 +441,6 @@
 
             });
 
-        var regionNames= $("text").map(function(){
-            return this.val();
-        }).get().join();
-
         // When a region is clicked...
         regions.on("click", function(){
 
@@ -476,7 +468,7 @@
                     $(this).siblings().
                     css('fill', '#000');
 
-                    region = $(this).parent().siblings().text();
+                    region = $(this).parent().text();
 
                     search(region + " " + dx + " " + cog + " " + terms);
             }
@@ -498,6 +490,7 @@
                     css('fill', '#F9D953');
             }
         });
+
 
         // Finally, search.
         function search(keywords) {
@@ -521,48 +514,7 @@
                 }
 
                 $.each(data.result, function(i, item){
-                    console.log(data);
-                  var author_list = '';
 
-                  for (var i = 0; i < item.AuthorList.length; i ++){
-
-                    if (i != 0) { author_list += ', '; }
-
-                    author_list += item.AuthorList[i];
-
-                  }
-
-                  var html = '<p class=\'article\'><h2><a href=\'http://www.ncbi.nlm.nih.gov/pubmed/' + item.ArticleIds.pubmed + '\' target = \'_blank\'>' + item.Title + '</a></h2><div class=\'cite\'>' + author_list + ' - ' + item.FullJournalName + '<span class=\'date\'> (' + item.PubDate + ')</span></div></p>';
-
-                  $("</p>").html(html).appendTo('#results');
-
-                });
-            });
-        };
-
-                // Finally, search.
-        function search(keywords) {
-
-            var search_string = keywords;
-
-            // Search PubMed (based on example @ http://entrezajax.appspot.com/examples/esearch+esummary.html)
-            args = {'apikey' : 'fd295326b5fd4f997b6a5778e50c3060',
-                    'db' : 'pubmed',
-                    'term' : search_string,
-                    'retmax' : 20,
-                    'max' : 10,
-                    'start' : 0};
-
-            $.getJSON('http://entrezajax.appspot.com/esearch+esummary?callback=?', args, function(data){
-
-                if (data.entrezajax.count != null){
-                    $('#results').html('<strong>' + data.entrezajax.count + '</strong> articles found about ' + keywords + ":");
-                } else {
-                    $('#results').html('Sorry, no articles found about ' + keywords + ".");
-                }
-
-                $.each(data.result, function(i, item){
-                    console.log(data);
                   var author_list = '';
 
                   for (var i = 0; i < item.AuthorList.length; i ++){
