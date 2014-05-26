@@ -1,29 +1,72 @@
 html, body {
-  background-color: #FFF0DC;
+  background-color: #FEFADD;
   height: 100%;
   overflow: hidden;
   margin: 0;
   padding: 0;
 }
 
+section {
+  padding: 1em;
+}
+
+label {
+  font-weight: 700;
+
+}
 
 header h1 {
   font-size: 4em;
+  text-transform: uppercase;
   font-weight:700;
   margin: 0;
-  padding: 0 1%;
   color: #000;
 }
 
+select {
+  background-color: #ffdf12;
+  border: none;
+  line-height: 1.5;
+  font-size: 1.5em;
+  width: 60%;
+  text-transform: uppercase;
+  font-weight: 400;
+  float: right;
+}
+
+input {
+  background-color: #ffdf12;
+  border: none;
+  border-bottom: 2px #000000 solid;
+  float: right;
+}
+
+.buttons {
+  float: right;
+}
+
+button {
+  text-align: center;
+  background-color: #ffdf12;
+  border: none;
+  line-height: 1.5;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+button:focus {
+  border-bottom: 2px solid #000000;
+  outline: none;
+}
+
 #side-container {
-  font-family: 'Merriweather', serif;
+  font-family: 'Raleway', sans-serif;
   float: left;
   height: 100%;
   width: 30%;
   margin: 0;
-  padding: 1%;
-  font-size: .8em;
-  background-color: #ffffff;
+  background-color: #ffdf12;
 }
 
 #brain-img {
@@ -38,15 +81,19 @@ header h1 {
   font-family: 'Amatic SC', serif;
   float: right;
   width: 65%;
-  background-color: #FFF0DC;
+  height: 90%;
+  background-color: #FEFADD;
   margin-top: 1%;
+  margin-right: 2%;
   padding: 0;
 }
 
 #results {
-  height: 82%;
+  height: 79%;
   overflow: auto;
-  margin-top: 2%;
+  margin: 2% 0;
+  background-color: #ffffff;
+  font-weight: 500;
 }
 
 #results h2 {
@@ -58,7 +105,7 @@ header h1 {
 #results a {
   font-size: inherit;
   text-decoration: none;
-  color: #9B3516;
+  color: #000000;
 }
 
 #results .cite {
@@ -67,11 +114,5 @@ header h1 {
 }
 
 #results .date {
-  color: #8B5729;
+  color: #383838;
 }
-
-#dx {
-  font-size: inherit;
-}
-
-
