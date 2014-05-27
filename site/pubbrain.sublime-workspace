@@ -1,0 +1,1807 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"strok",
+				"stroke-width"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bro",
+				"border-radius"
+			],
+			[
+				"BAC",
+				"background-color"
+			],
+			[
+				"get",
+				"get_stats"
+			],
+			[
+				"C",
+				"color"
+			],
+			[
+				"Lobe",
+				"Lobes-Button"
+			],
+			[
+				"lo",
+				"lobules"
+			],
+			[
+				"Mid",
+				"Midsagittal"
+			],
+			[
+				"for",
+				"foreach"
+			],
+			[
+				"BA",
+				"background-color"
+			],
+			[
+				"home",
+				"home_score"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"team",
+				"team_name"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"away",
+				"away_score"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"short",
+				"short_url"
+			],
+			[
+				"num",
+				"num_frequency"
+			],
+			[
+				"grade",
+				"grade_average"
+			],
+			[
+				"lette",
+				"letter_grade"
+			],
+			[
+				"ag",
+				"avg"
+			],
+			[
+				"FON",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"syn",
+				"synopses"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"all",
+				"all_movies"
+			],
+			[
+				"eye",
+				"eye_color"
+			],
+			[
+				"people",
+				"people_statistics"
+			],
+			[
+				"pos",
+				"pos_names"
+			],
+			[
+				"posi",
+				"position_names"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"b",
+				"body	Tag"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"fo",
+				"footer	Tag"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"Tria",
+				"TriangleError"
+			],
+			[
+				"Runti",
+				"RuntimeError"
+			],
+			[
+				"My",
+				"MySpecialError"
+			],
+			[
+				"eq",
+				"equilateral"
+			],
+			[
+				"region",
+				"regionNames"
+			],
+			[
+				"game",
+				"gameover"
+			],
+			[
+				"guess",
+				"guess_number"
+			],
+			[
+				"gu",
+				"guess_number"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"auth",
+				"author_list"
+			],
+			[
+				"autho",
+				"Authorlist"
+			],
+			[
+				"en",
+				"entrezajax"
+			],
+			[
+				"am",
+				"amaticbold"
+			],
+			[
+				"grid",
+				"gridSize"
+			],
+			[
+				"gri",
+				"gridSize"
+			],
+			[
+				"gr",
+				"gridSize"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"alg",
+				"text-align"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"art",
+				"artNum"
+			],
+			[
+				"uns",
+				"unsorted_array"
+			],
+			[
+				"sorted",
+				"sorted_array"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/custom.css",
+			"settings":
+			{
+				"buffer_size": 1762,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index2.html",
+			"settings":
+			{
+				"buffer_size": 34800,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/adminuser/Dropbox/launchacademy/game_time/server.rb",
+			"settings":
+			{
+				"buffer_size": 2075,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 199316,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 307.0,
+		"selected_items":
+		[
+			[
+				"",
+				"BeautifyRuby"
+			],
+			[
+				"ruby",
+				"BeautifyRuby"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sched",
+				"Theme Scheduler: Refresh"
+			],
+			[
+				"schedu",
+				"Theme Scheduler: Show Next Change"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Preferences: GutterColor Settings – Default"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"+ 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/adminuser/Dropbox/launchacademy/game_time/server.rb",
+		"/Users/adminuser/Dropbox/launchacademy/game_time/games.csv",
+		"/Users/adminuser/Dropbox/launchacademy/game_time/public/styles.css",
+		"/Users/adminuser/Dropbox/launchacademy/game_time/views/index.erb",
+		"/Users/adminuser/Dropbox/launchacademy/game_time/views/team.erb",
+		"/Users/adminuser/Dropbox/launchacademy/url_shortener/urls.csv",
+		"/Users/adminuser/Dropbox/launchacademy/url_shortener/views/index.erb",
+		"/Users/adminuser/Dropbox/launchacademy/url_shortener/server.rb",
+		"/Users/adminuser/Dropbox/launchacademy/slacker_news/news.csv",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_classes.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_open_classes.rb",
+		"/Users/adminuser/Dropbox/launchacademy/slacker_news/Gemfile",
+		"/Users/adminuser/Dropbox/launchacademy/slacker_news/Procfile",
+		"/Users/adminuser/Dropbox/launchacademy/slacker_news/server.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_scoring_project.rb",
+		"/Users/adminuser/Dropbox/launchacademy/comet/distance_between_points/lib/untitled.html",
+		"/Users/adminuser/Dropbox/launchacademy/comet/student/lib/student.rb",
+		"/Users/adminuser/Dropbox/launchacademy/slacker_news/views/comments.erb",
+		"/Users/adminuser/Dropbox/launchacademy/slacker_news/views/index.erb.html",
+		"/Users/adminuser/Dropbox/launchacademy/slacker_news/public/index.erb.html",
+		"/Users/adminuser/Dropbox/launchacademy/movie_index/views/movie.erb",
+		"/Users/adminuser/Dropbox/launchacademy/movie_index/movies.csv",
+		"/Users/adminuser/Dropbox/launchacademy/movie_index/views/layout.erb",
+		"/Users/adminuser/Dropbox/launchacademy/kickball/views/pos/layout.erb",
+		"/Users/adminuser/Dropbox/launchacademy/kickball/views/layout.erb.html",
+		"/Users/adminuser/Dropbox/launchacademy/kickball/public/styles.css",
+		"/Users/adminuser/Dropbox/launchacademy/kickball/views/show.erb.html",
+		"/Users/adminuser/Dropbox/launchacademy/kickball/server.rb",
+		"/Users/adminuser/Dropbox/launchacademy/phone_book/views/show.erb",
+		"/Users/adminuser/Dropbox/launchacademy/phone_book/views/index.erb",
+		"/Users/adminuser/Dropbox/launchacademy/phone_book/layout.erb",
+		"/Users/adminuser/Dropbox/launchacademy/phone_book/server.rb",
+		"/Users/adminuser/Desktop/untitled.html",
+		"/Users/adminuser/Dropbox/launchacademy/todo_list/server.rb",
+		"/Users/adminuser/Dropbox/launchacademy/list_stats.rb",
+		"/Users/adminuser/Dropbox/launchacademy/todo_list/views/index.erb",
+		"/Users/adminuser/Dropbox/launchacademy/in_theaters/in_theaters.json",
+		"/Users/adminuser/Dropbox/launchacademy/phone_book/contacts.csv",
+		"/Users/adminuser/Dropbox/launchacademy/todo_list/views/show.erb.html",
+		"/Users/adminuser/Dropbox/launchacademy/todo_list/home.css",
+		"/Users/adminuser/Dropbox/launchacademy/todo_list/home.html",
+		"/Users/adminuser/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/adminuser/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_sandwich_code.rb",
+		"/Users/adminuser/Dropbox/launchacademy/schmoogle/app.css",
+		"/Users/adminuser/Dropbox/launchacademy/schmoogle/index.html",
+		"/Users/adminuser/Dropbox/launchacademy/slacker_news/public/index.html",
+		"/Users/adminuser/Dropbox/launchacademy/in_theaters/in_theaters.rb",
+		"/Users/adminuser/Dropbox/launchacademy/cash_reg3/cash_reg3.rb",
+		"/Users/adminuser/Dropbox/launchacademy/slacker_news/public/styles.css",
+		"/Users/adminuser/railsbridge/suggestotron/app/assets/stylesheets/application.css",
+		"/Users/adminuser/railsbridge/suggestotron/app/views/topics/index.html.erb",
+		"/Users/adminuser/railsbridge/suggestotron/app/models/topic.rb",
+		"/Users/adminuser/railsbridge/suggestotron/app/models/vote.rb",
+		"/Users/adminuser/railsbridge/suggestotron/config/routes.rb",
+		"/Users/adminuser/railsbridge/suggestotron/Gemfile",
+		"/Users/adminuser/railsbridge/suggestotron/app/controllers/topics_controller.rb",
+		"/Users/adminuser/railsbridge/suggestotron/app/views/layouts/application.html.erb",
+		"/Users/adminuser/railsbridge/suggestotron/app/controllers/votes_controller.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_blocks.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_iteration.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/triangle.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_exceptions.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_triangle_project_2.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_triangle_project.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_true_and_false.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_control_statements.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_constants.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_keyword_arguments.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_methods.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_regular_expressions.rb",
+		"/Users/adminuser/Dropbox/launchacademy/cash_reg3.rb",
+		"/Users/adminuser/Dropbox/launchacademy/koans/about_array_assignments.rb",
+		"/Users/adminuser/Dropbox/launchacademy/cash_reg3/order.csv",
+		"/Users/adminuser/Dropbox/launchacademy/comet/leap_year/lib/leap_year.rb",
+		"/Users/adminuser/Dropbox/launchacademy/comet/fizz_buzz/lib/fizz_buzz.rb",
+		"/Users/adminuser/Dropbox/launchacademy/cash_reg2.rb",
+		"/Users/adminuser/Dropbox/launchacademy/hashpractice.rb",
+		"/Users/adminuser/Dropbox/launchacademy/grade_averages/grader.rb",
+		"/Users/adminuser/Dropbox/HES/DGMDE15/SerurDrupal.txt",
+		"/Users/adminuser/Dropbox/launchacademy/comet/uniques/lib/grades.rb",
+		"/Users/adminuser/Dropbox/launchacademy/guess_the_number/solver.rb",
+		"/Users/adminuser/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/site/css/custom.css",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/TODO.md",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/site/pubmed.html",
+		"/Users/adminuser/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/site/brain.js",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/site/pubmedAPIinfo.md",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/site/optimised.svg",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/site/Lobe_simple.svg",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/site/index.html",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/Project-Questions.md",
+		"/Users/adminuser/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/Users/adminuser/Library/Application Support/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-settings",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/site/sample_code.html",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/site/test.html",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/site/Lobe_simple copy.svg",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/site/Lobes.svg",
+		"/Users/adminuser/Dropbox/Serur-Project-2/media/US.svg",
+		"/Users/adminuser/.zshrc",
+		"/Users/adminuser/Dropbox/Serur-Project-2/script.js",
+		"/Users/adminuser/Dropbox/Serur-Project-2/SOTU.html",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/site/css/stylesheet.css",
+		"/Users/adminuser/Desktop/htaccess",
+		"/Users/adminuser/Dropbox/git_tutorial/work/hello/hello.rb",
+		"/Users/adminuser/.profile",
+		"/Users/adminuser/Dropbox/.profile",
+		"/Users/adminuser/.gitconfig",
+		"/Users/adminuser/Desktop/programs/test.rb",
+		"/Users/adminuser/Desktop/programs/recursive_sort.rb",
+		"/Users/adminuser/Desktop/programs/boss.rb",
+		"/Users/adminuser/Dropbox/rachael/styles/style.css",
+		"/Users/adminuser/Dropbox/rachael/index.html",
+		"/Users/adminuser/Desktop/programs/string.rb",
+		"/Users/adminuser/Desktop/programs/buffy.rb",
+		"/Users/adminuser/Desktop/programs/array.rb",
+		"/Users/adminuser/Desktop/programs/ask.rb",
+		"/Users/adminuser/Desktop/programs/roman.rb",
+		"/Users/adminuser/Desktop/programs/civ.rb",
+		"/Users/adminuser/Desktop/programs/cap.rb",
+		"/Users/adminuser/Desktop/programs/loop.rb",
+		"/Users/adminuser/Desktop/programs/greenbeer.rb",
+		"/Users/adminuser/Desktop/programs/social.html",
+		"/Users/adminuser/Desktop/programs/beer.rb",
+		"/Users/adminuser/Desktop/programs/calc.rb",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/site/css/body { padding-top: 70px; }",
+		"/Users/adminuser/Dropbox/Serur-Final-Project/brain_sketch/sketch.properties"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"area",
+			"mids",
+			"area",
+			"areas",
+			"AREA",
+			"stroke",
+			"height",
+			"sect",
+			"ffffff",
+			"Sup",
+			"Inf",
+			"broca",
+			"mids",
+			"tea,",
+			"MAIN",
+			"#Y",
+			"submit",
+			"synop",
+			"puts",
+			"Flinestone",
+			"zak",
+			"push",
+			">\n",
+			"comments",
+			"slacker",
+			"@topic",
+			"topics.all",
+			"topic.all",
+			"click",
+			"region",
+			"terms",
+			"retail",
+			"order",
+			"?\"",
+			"total",
+			"place",
+			"guessed",
+			"length",
+			"</option>",
+			"<option>",
+			"stroke",
+			"fill",
+			"black",
+			"fill=\"black\"",
+			"black",
+			"style",
+			"buddha-gold",
+			"buddha-gold ",
+			"buddha-gold",
+			"tabasco",
+			"school-bus",
+			"school-bus ",
+			"flush-orange",
+			"flush-orange ",
+			"blaze-orange",
+			"blaze-orange ",
+			"bright-sun",
+			"bright-sun ",
+			"bright-sun",
+			"international-orange",
+			"international-orange ",
+			"sweet-corn",
+			"sweet-corn ",
+			"energy-yellow ",
+			"pizazz",
+			"pizazz ",
+			"vermillion ",
+			"chilean-fire",
+			"turbo",
+			"web-orange",
+			"web-orange ",
+			"burnt-umber",
+			"mule-fawn",
+			"mule-fawn ",
+			"hot-cinnamon",
+			"hot-cinnamon ",
+			"tabasco",
+			"gyrus",
+			"cogn",
+			"parietal",
+			"parietal ",
+			"parietal",
+			"Mid",
+			"Sup",
+			"Inf",
+			"frontal",
+			"keywords",
+			"svg",
+			"keyword",
+			"fill=\"black\"",
+			"class=",
+			"stroke",
+			"highligh",
+			"orange-stroke ",
+			"buddha-gold ",
+			"tabasco ",
+			"school-bus ",
+			"flush-orange ",
+			"blaze-orange ",
+			"bright-sun ",
+			"international-orange ",
+			"sweet-corn ",
+			"energy-yellow ",
+			"pizazz ",
+			"vermillion ",
+			"chilean-fire ",
+			"turbo ",
+			"web-orange ",
+			"burnt-umber ",
+			"mule-fawn ",
+			"orange-stroke ",
+			"hot-cinnamon ",
+			"hot-cinnamon",
+			"find",
+			"cmd",
+			"alt+r",
+			"find",
+			"replace",
+			"close",
+			"find",
+			"replace",
+			"web-orange",
+			"web-oragne",
+			"burnt-umber",
+			"mule-fawn",
+			"hot-cinnamon",
+			"png",
+			"area"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"FEFADD",
+			"Superior",
+			"Inferior",
+			"p",
+			"Flintstone",
+			"<a href=\"comments.html\">comments</a>",
+			"",
+			"Middle",
+			"Superior",
+			"Inferior",
+			"",
+			"lobule",
+			"noise",
+			"32",
+			"img"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/custom.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1762,
+						"regions":
+						{
+							"gutter_color_1123":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/FEFADD.png",
+								"regions":
+								[
+									[
+										1189,
+										1217
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1169":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/FEFADD.png",
+								"regions":
+								[
+									[
+										1189,
+										1217
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1172":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/FEFADD.png",
+								"regions":
+								[
+									[
+										1189,
+										1217
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1189":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/FEFADD.png",
+								"regions":
+								[
+									[
+										1189,
+										1217
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1190":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/FEFADD.png",
+								"regions":
+								[
+									[
+										1189,
+										1217
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/FEFADD.png",
+								"regions":
+								[
+									[
+										13,
+										41
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1313":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/FEFADD.png",
+								"regions":
+								[
+									[
+										1353,
+										1381
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1316":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/FEFADD.png",
+								"regions":
+								[
+									[
+										1353,
+										1381
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1334":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/FEFADD.png",
+								"regions":
+								[
+									[
+										1353,
+										1381
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1353":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/FEFADD.png",
+								"regions":
+								[
+									[
+										1353,
+										1381
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1354":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/FEFADD.png",
+								"regions":
+								[
+									[
+										1353,
+										1381
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1400":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										1419,
+										1447
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1419":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										1419,
+										1447
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1420":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										1419,
+										1447
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1456":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										1587,
+										1604
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1473":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										1587,
+										1604
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1485":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										1587,
+										1604
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1502":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										1587,
+										1604
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1523":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										1587,
+										1604
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1552":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										1587,
+										1604
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1572":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										1587,
+										1604
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1576":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/383838.png",
+								"regions":
+								[
+									[
+										1742,
+										1759
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1586":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										1628,
+										1656
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1587":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										1587,
+										1604
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1588":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										1587,
+										1604
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1613":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffffff.png",
+								"regions":
+								[
+									[
+										1628,
+										1656
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1626":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/383838.png",
+								"regions":
+								[
+									[
+										1742,
+										1759
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1628":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffffff.png",
+								"regions":
+								[
+									[
+										1628,
+										1656
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1629":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffffff.png",
+								"regions":
+								[
+									[
+										1628,
+										1656
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1655":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/383838.png",
+								"regions":
+								[
+									[
+										1742,
+										1759
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1706":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/383838.png",
+								"regions":
+								[
+									[
+										1742,
+										1759
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1727":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/383838.png",
+								"regions":
+								[
+									[
+										1742,
+										1759
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1742":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/383838.png",
+								"regions":
+								[
+									[
+										1742,
+										1759
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1743":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/383838.png",
+								"regions":
+								[
+									[
+										1742,
+										1759
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_270":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										298,
+										315
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_297":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										328,
+										356
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_298":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4f4619.png",
+								"regions":
+								[
+									[
+										298,
+										315
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_299":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4f4619.png",
+								"regions":
+								[
+									[
+										298,
+										315
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_326":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										328,
+										356
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_328":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										328,
+										356
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_329":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										328,
+										356
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_449":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										480,
+										508
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_478":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										480,
+										508
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_480":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										480,
+										508
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_481":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										480,
+										508
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_494":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										525,
+										560
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_523":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										525,
+										560
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_525":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										525,
+										560
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_526":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										525,
+										560
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_610":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										658,
+										686
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_656":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										658,
+										686
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_658":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										658,
+										686
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_659":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										658,
+										686
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_762":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										828,
+										863
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_779":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										828,
+										863
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_791":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										828,
+										863
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_792":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4f4619.png",
+								"regions":
+								[
+									[
+										792,
+										809
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_793":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4f4619.png",
+								"regions":
+								[
+									[
+										792,
+										809
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_808":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										828,
+										863
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_828":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										828,
+										863
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_829":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/000000.png",
+								"regions":
+								[
+									[
+										828,
+										863
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_932":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										998,
+										1026
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_949":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										998,
+										1026
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_978":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										998,
+										1026
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_981":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										998,
+										1026
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_998":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										998,
+										1026
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_999":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/ffdf12.png",
+								"regions":
+								[
+									[
+										998,
+										1026
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Light) (SL).tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32099,
+								32099
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Light) (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11087.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/adminuser/Dropbox/launchacademy/game_time/server.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Light) (SL).tmTheme",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1026.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 199316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								197314,
+								195611
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Light) (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 50155.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 100.0
+	},
+	"project": "pubbrain.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 349.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

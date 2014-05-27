@@ -14,10 +14,10 @@
 
     <div id="side-container">
 
-        <section>
+        <section id="top">
             <header><h1>PubBrain</h1></header>
             <form id="search" role="form">
-                  <label for="dx">DSM:</label>
+                  <p><label for="dx">DSM:</label>
                   <select id="dx">
                     <option></option>
                     <option>Acute Stress Disorder</option>
@@ -74,9 +74,9 @@
                     <option>Social Phobia</option>
                     <option>Specific Phobia</option>
                     <option>Tourette's Disorder</option>
-                  </select>
+                  </select></p>
                   <br />
-                <label for="cognition">Area of Cognition:</label>
+                <p><label for="cognition">Area of Cognition:</label>
                 <select id="cognition">
                     <option></option>
                     <option>Attention</option>
@@ -92,10 +92,10 @@
                     <option>Sensation</option>
                     <option>Visual Processing</option>
                     <option>Spatial Processing</option>
-                </select>
-                <br />
+                </select></p>
+                <p>
                 <label for="terms">Search Terms:</label>
-                <input type="text" id="terms">
+                <input type="text" id="terms"></p>
             </form>
         </section>
         <section id="results">
@@ -251,21 +251,20 @@
             <text id="STGt" transform="matrix(0.9607 -0.2775 0.2775 0.9607 450.4009 419.6011)" font-family="'AmaticSC-Regular'" font-size="36">Superior Temporal Gyrus</text>
     </g>
 </g>
+
 <g id="Areas">
-    <g id="Broca">
-        <path id="BrocaS" fill="#FEFADD" stroke="#000000" stroke-width="4" d="M328,403.501c-1-16-17-26-20-41c-2-9-1-25,1-34
+    <!-- <g id="Broca">
+        <path id="BrocaS" fill="#FEFADD" stroke="#000000" stroke-width="1" d="M328,403.501c-1-16-17-26-20-41c-2-9-1-25,1-34
             c5-26,22-61,55-61c2,0,4,7,9,6c5,0,10.715-2.716,12-7c3-10,16-12,26-13c13-1,10.824,4.13,5.256,16.046
             C406,291.501,411,306.501,407,316.501c-5,14,2,14-2,26c-5,13-28,32-39,40c-10,8-26,15-39,14"/>
         <text id="BrocaT" transform="matrix(1 0 0 1 340.6777 319.5015)"><tspan x="0" y="0" font-family="'AmaticSC-Regular'" font-size="24">Broca’s </tspan><tspan x="9.012" y="28.8" font-family="'AmaticSC-Regular'" font-size="24">Area</tspan></text>
     </g>
     <g id="Wernicke">
-        <path id="WernickeS" fill="#FEFADD" stroke="#000000" stroke-width="3" d="M675,300.501c14-33,50.005-5.214,73.005-6.214
+        <path id="WernickeS" fill="#FEFADD" stroke="#000000" stroke-width="1" d="M675,300.501c14-33,50.005-5.214,73.005-6.214
             c19-1,33.995-3.786,42.995,18.214c5,13,0,14,0,28c0,20,0,28-16,42c-16,16-34,23-57,25c-19,1-33,6-33-16c0-11,5-22,6-33
             c3-22-5-30-15-47"/>
         <text id="WernickeT" transform="matrix(1 0 0 1 708.5679 333.5015)"><tspan x="0" y="0" font-family="'AmaticSC-Regular'" font-size="24">Wernicke’s </tspan><tspan x="21.111" y="28.8" font-family="'AmaticSC-Regular'" font-size="24">Area</tspan></text>
-    </g>
-</g>
-<g id="Midsagittal">
+    </g> -->
     <g id="Amygdala">
     <ellipse fill="rgba(255,255,255,0.1)" cx="471.772" cy="746.798" rx="48.471" ry="20.703"/>
         <path id="Amygdala_1_" fill="#FEFADD" stroke="#000000" stroke-miterlimit="10" d="M491.833,602.886
@@ -300,7 +299,7 @@
         <ellipse fill="rgba(255,255,255,0.1)" cx="385.579" cy="704.07" rx="52.606" ry="25.496"/>
         <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="452.799" y1="589.587" x2="452.799" y2="705.773"/>
         <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="452.799" y1="705.773" x2="441.854" y2="705.773"/>
-        <text id="BasolateralT" transform="matrix(1 0 0 1 343.0996 714.5747)" font-family="'AmaticSC-Regular'" font-size="30">bas0lateral</text>
+        <text id="BasolateralT" transform="matrix(1 0 0 1 343.0996 714.5747)" font-family="'AmaticSC-Regular'" font-size="30">basolateral</text>
         <path fill="none" stroke="#000000" stroke-miterlimit="10" d="M395.378,724.671c-3,15.575,6,25.588,26.999,22.251"/>
         <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="416.377" y1="736.118" x2="422.377" y2="746.922"/>
         <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="422.377" y1="746.922" x2="416.377" y2="756.17"/>
@@ -363,7 +362,6 @@
         <button type="button" id="Lobes-Button">Lobes</button>
         <button type="button" id="Gyri-Button">Gyri</button>
         <button type="button" id="Midsagittal-Button">Midsagittal</button>
-        <button type="button" id="Areas-Button">Area</button>
     </div>
     </main>
 
@@ -384,8 +382,7 @@
         // Variables based on lobule, lobe, area, and border classes.
         var lobes = d3.select("#Lobes").selectAll("path, text");
         var lobules = d3.select("#Gyri").selectAll("path, text");
-        var areas = d3.select("#Areas").selectAll("path, text");
-        var midsagittal = d3.select("#Midsagittal").selectAll("path, text, line, ellipse");
+        var areas = d3.select("#Areas").selectAll("path, text, line, ellipse");
         var borders = brain.selectAll(".border");
 
         // "regions" variable to refer to lobes, lobules, and areas at once
@@ -394,7 +391,7 @@
         // Start tracking which lobules and lobes are clicked with a new "unclicked" class added to all.
         lobules.classed({"unclicked" : true});
         lobes.classed({"unclicked" : true});
-        midsagittal.classed({"unclicked" : true});
+        areas.classed({"unclicked" : true});
 
         // On hover
         regions.on("mouseover", function(){
@@ -426,49 +423,74 @@
         // When a region is clicked...
         regions.on("click", function(){
 
-            $(this).removeClass("unclicked");
+                     // "unclick" all regions so that any current highlighting is removed.
+                regions.classed({"unclicked" : true}).style({'fill':
+                    '#FEFADD'}).attr("stroke-width", "1");
 
-            $(this).parent().children("path").css({'fill': '#FFDF12'});
+            //  if region hasn't yet been clicked...
+            if (d3.select(this).classed("unclicked")){
 
-            $(this).parent().children("text").css({'fill': '#000000'});
+                // then remove "unclicked" class from the newly click area alone and keep that area filled with a highlighting orange.
+                d3.select(this).classed({"unclicked" : false}).transition().
+                    duration(400).
+                    style({'fill': '#FFDF12'}).attr("stroke-width", "4");
 
-            region = $(this).parent().text();
+                    // change text in group
+                    $(this).parent().siblings().
+                    css('fill', '#000');
+
+                    // change border of region
+                    $(this).siblings().
+                    css('fill', '#000');
+
+                    region = $(this).parent().text();
+
+                    search(region + " " + dx + " " + cog + " " + terms);
+            }
+
+            // if region has been clicked...
+            else {
+
+                // return it to "unclicked"
+                d3.select(this).classed({"unclicked" : true}).transition().
+                    duration(400).
+                    style({'fill': '#F9EE8A'});
+
+                    // change text in group
+                    $(this).parent().siblings().
+                    css('fill', '#F76F00');
+
+                    // change border of region
+                    $(this).siblings().
+                    css('fill', '#F9D953');
+            }
 
             search(region + " " + dx + " " + cog + " " + terms);
 
         });
 
         lobules.attr("visibility", "hidden");
+
         areas.attr("visibility", "hidden");
-        midsagittal.attr("visibility", "hidden");
 
         $("#Lobes-Button").click(function() {
             lobes.attr("visibility", "show");
             lobules.attr("visibility", "hidden");
+
             areas.attr("visibility", "hidden");
-            midsagittal.attr("visibility", "hidden");
         });
 
         $("#Gyri-Button").click(function() {
             lobules.attr("visibility", "show");
             lobes.attr("visibility", "hidden");
+
             areas.attr("visibility", "hidden");
-            midsagittal.attr("visibility", "hidden");
-        });
-
-        $("#Areas-Button").click(function() {
-            areas.attr("visibility", "show");
-            lobes.attr("visibility", "hidden");
-            lobules.attr("visibility", "hidden");
-            midsagittal.attr("visibility", "hidden");
-
         });
 
         $("#Midsagittal-Button").click(function() {
-            midsagittal.attr("visibility", "show");
-
+            areas.attr("visibility", "show").fadeIn(200);
             lobules.attr("visibility", "hidden");
-            areas.attr("visibility", "hidden");
+
 
         });
 
