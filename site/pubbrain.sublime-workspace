@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"stroke",
+				"stroke-width"
+			],
+			[
 				"strok",
 				"stroke-width"
 			],
@@ -327,15 +331,7 @@
 			"file": "index2.html",
 			"settings":
 			{
-				"buffer_size": 34800,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/adminuser/Dropbox/launchacademy/game_time/server.rb",
-			"settings":
-			{
-				"buffer_size": 2075,
+				"buffer_size": 34680,
 				"line_ending": "Unix"
 			}
 		},
@@ -558,6 +554,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ellipse",
 			"area",
 			"mids",
 			"area",
@@ -684,8 +681,7 @@
 			"burnt-umber",
 			"mule-fawn",
 			"hot-cinnamon",
-			"png",
-			"area"
+			"png"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -718,7 +714,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1620,7 +1616,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1629,38 +1625,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 34800,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								32099,
-								32099
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Light) (SL).tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 11087.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/adminuser/Dropbox/launchacademy/game_time/server.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2075,
+						"buffer_size": 34680,
 						"regions":
 						{
 						},
@@ -1674,19 +1639,19 @@
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Light) (SL).tmTheme",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1026.0,
+						"translation.y": 17335.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "index.html",
 					"semi_transient": true,
 					"settings":
@@ -1713,7 +1678,7 @@
 						"translation.y": 50155.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
