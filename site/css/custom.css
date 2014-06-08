@@ -27,6 +27,10 @@ header h1 {
   color: #4f4619;
 }
 
+h1 small {
+  font-size: .4em;
+}
+
 select {
   background-color: #ffdf12;
   border: none;

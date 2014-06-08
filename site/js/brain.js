@@ -41,24 +41,24 @@ $(document).ready(function() {
         style({
             'fill': '#FFDF12'
         });
+
     }).on("mouseout", function() {
 
         if (d3.select(this).classed("unclicked")) {
-            d3.select(this).transition().
-            duration(300).
+
+            d3.select(this).transition().duration(300).
             style({
                 'fill': '#FFDF12'
             }).
-            transition().
-            duration(400).
+            transition().duration(400).
             style({
                 'fill': '#FEFADD'
             }).
-            transition().
-            duration(500).
+            transition().duration(500).
             style({
                 'fill': '#FFFFFF'
             });
+
         };
 
         $(this).parent().children("text").css({
@@ -74,9 +74,11 @@ $(document).ready(function() {
         // "unclick" all regions so that any current highlighting is removed.
         regions.classed({
             "unclicked": true
-        }).style({
+        }).
+        style({
             'fill': '#FEFADD'
-        }).attr("stroke-width", "1");
+        }).
+        attr("stroke-width", "1");
 
         //  if region hasn't yet been clicked...
         if (d3.select(this).classed("unclicked")) {
@@ -84,11 +86,12 @@ $(document).ready(function() {
             // then remove "unclicked" class from the newly click area alone and keep that area filled with a highlighting orange.
             d3.select(this).classed({
                 "unclicked": false
-            }).transition().
-            duration(400).
+            }).
+            transition().duration(400).
             style({
                 'fill': '#FFDF12'
-            }).attr("stroke-width", "4");
+            }).
+            attr("stroke-width", "4");
 
             // change text in group
             $(this).parent().siblings().
@@ -100,12 +103,8 @@ $(document).ready(function() {
 
             region = $(this).parent().text();
 
-
-            // if($(this).parent().text().contains("basolateral")){
-            //     region = "basolateral amygdala"
-            // };
-
             search(region + " " + dx + " " + cog + " " + terms);
+
         }
 
         // if region has been clicked...
@@ -114,8 +113,8 @@ $(document).ready(function() {
             // return it to "unclicked"
             d3.select(this).classed({
                 "unclicked": true
-            }).transition().
-            duration(400).
+            }).
+            transition().duration(400).
             style({
                 'fill': '#F9EE8A'
             });
@@ -140,22 +139,18 @@ $(document).ready(function() {
     $("#Lobes-Button").click(function() {
         lobes.attr("visibility", "show");
         lobules.attr("visibility", "hidden");
-
         areas.attr("visibility", "hidden");
     });
 
     $("#Gyri-Button").click(function() {
         lobules.attr("visibility", "show");
         lobes.attr("visibility", "hidden");
-
         areas.attr("visibility", "hidden");
     });
 
     $("#Midsagittal-Button").click(function() {
         areas.attr("visibility", "show").fadeIn(200);
         lobules.attr("visibility", "hidden");
-
-
     });
 
     // Fade in "brain" when page opens.
