@@ -1,4 +1,4 @@
-[PubBrain](http://www.rachaelserur.com/pubbrain)
+PubBrain
 ==========
 A Spring 2014 Final Project for DGMD-E15, "Creative Explorations in Screen-Based and Physical Computing"
 
